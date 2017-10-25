@@ -8,7 +8,7 @@ Welcome you to our interview and thank you for your time. This task is to create
 - Language: Objective-C or Swift (Any version)
 - Xcode 9 is preferred (Any version is accepted)
 - Any iOS SDK is accepted
-- Time limit: 40 mins
+- Time limit: 45 mins
 
 
 ## Instruction
