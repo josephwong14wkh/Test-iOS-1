@@ -15,6 +15,7 @@
 		7F771B1A24679EB900CB79BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F771B1824679EB900CB79BD /* LaunchScreen.storyboard */; };
 		7F771B2524679EB900CB79BD /* iOSRecruitmentTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F771B2424679EB900CB79BD /* iOSRecruitmentTest1Tests.swift */; };
 		7F771B3024679EB900CB79BD /* iOSRecruitmentTest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F771B2F24679EB900CB79BD /* iOSRecruitmentTest1UITests.swift */; };
+		7FBAD8012467AC73000277F4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBAD8002467AC73000277F4 /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7F771B2B24679EB900CB79BD /* iOSRecruitmentTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSRecruitmentTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F771B2F24679EB900CB79BD /* iOSRecruitmentTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSRecruitmentTest1UITests.swift; sourceTree = "<group>"; };
 		7F771B3124679EB900CB79BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBAD8002467AC73000277F4 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7F771B0D24679EB600CB79BD /* AppDelegate.swift */,
 				7F771B0F24679EB600CB79BD /* SceneDelegate.swift */,
 				7F771B1124679EB600CB79BD /* ViewController.swift */,
+				7FBAD8002467AC73000277F4 /* Protocols.swift */,
 				7F771B1324679EB600CB79BD /* Main.storyboard */,
 				7F771B1624679EB900CB79BD /* Assets.xcassets */,
 				7F771B1824679EB900CB79BD /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				7F771B1224679EB600CB79BD /* ViewController.swift in Sources */,
 				7F771B0E24679EB600CB79BD /* AppDelegate.swift in Sources */,
 				7F771B1024679EB600CB79BD /* SceneDelegate.swift in Sources */,
+				7FBAD8012467AC73000277F4 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

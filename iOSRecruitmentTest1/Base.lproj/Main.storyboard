@@ -15,12 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddt-ag-qiz">
-                                <rect key="frame" x="197.5" y="252" width="19" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ve3-JI-axx" userLabel="Keyboard">
                                 <rect key="frame" x="0.0" y="409" width="414" height="487"/>
                                 <subviews>
@@ -150,12 +144,18 @@
                                     <constraint firstItem="XQX-fJ-yYr" firstAttribute="top" secondItem="mJT-l9-uXm" secondAttribute="bottom" constant="20" id="g5n-78-n0r"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddt-ag-qiz">
+                                <rect key="frame" x="197.5" y="333" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ve3-JI-axx" secondAttribute="trailing" id="7rl-GT-fJX"/>
+                            <constraint firstItem="Ve3-JI-axx" firstAttribute="top" secondItem="ddt-ag-qiz" secondAttribute="bottom" constant="40" id="IFy-zp-djZ"/>
                             <constraint firstItem="Ve3-JI-axx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J1S-bi-wSt"/>
-                            <constraint firstItem="ddt-ag-qiz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="208" id="Jvn-PI-F4s"/>
                             <constraint firstItem="ddt-ag-qiz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M57-Kb-xnu"/>
                             <constraint firstItem="Ve3-JI-axx" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="cag-w7-6cx"/>
                             <constraint firstItem="Ve3-JI-axx" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="uVc-qM-7Ce"/>
