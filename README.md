@@ -1,35 +1,51 @@
+# USThing Recruitment Test 1 - iOS
 
-# USThing iOS Interview
+## Introduction :information_source: 
+In this test, you are required to create a calculator app on iOS! :tada: :iphone:
 
-Welcome you to our interview and thank you for your time. This task is to create an add only calculator. After completing this task, please notify our team member and push to github or send us the files.
+You are allowed to find help online by searching related material. 
 
-## Requirements
+## Instructions :notebook: 
 
-- Language: Objective-C or Swift (Any version)
-- Xcode 9 is preferred (Any version is accepted)
-- Any iOS SDK is accepted
-- Time limit: 45 mins
+Clone this repository and work on the following tasks. The tasks are not arranged in specific orders and each task has different complexity, you can work on the tasks in any order.  Please create a new branch for each task. However, you are reminded that some tasks are dependent on each order, and you should use merge/pull/rebase to assist your development.
 
+### Task 1
+1. Add 3 buttons (+, =, C) to the keyboard view in `Main.storyboard`.
+2. Add Layout Constraints for the buttons.
 
-## Instruction
+### Task 2
+1. Create a file named `Calculator.swift`.
+2. Write a Calculator class which handles `Int` result by using protocol `Addable` & `Clearable` provided. The class should have a variable called result with suitable initial value. When `add()` is called, the input value is added to result. When `clear()` is called, the result is reset.
 
-1. Clone this repository and open USThing-iOS-Interview.xcodeproj. Inside the project, you should be able to see `Main.storyboard` and other standard files (including but not limited to `AppDelegate.swift`) `Main.storyboard` contains the basic UI of this task.
-2. Construct constraint in the storyboard. (Hints: Stick to bottom / start from bottom)
-3. Create a view controller swift file. Task includes:
-	1. AC button performs cancel behavior
-	2. Plus button perform adding behavior
-	3. Equal button to show final answers
+### Task 3
+Connect UI and code in `ViewController.swift` with following requirements:
+1. Clear current numeric label (by C button)
+2. Display numeric input in result label
+3. Enter multiple digit numeric input
+4. Show current result (by +/= button)
+5. Switch to second numeric input after clicking + button
+6. Switch to first numeric input after clicking = button (discard all previous data)
+7. Change C button to AC when C button is clicked
+8. Discard all previous data (by AC button) and change back to C button
 
-## Flow of Calculator
-1. Press digit
-2. Label shows corresponding digit
-3. Press plus
-4. Press next digit, and label shows pressed digit
-5. Press plus / equal, label can show result
-6. If plus is pressed, the adding flow can repeated continuously 
+### Task 4
+Add at least 2 test case for each of the following test.
+1. Unit test for testing Calculator class
+2. UI test for testing UI flow
 
-## Judging critria
-1. Completion of logic
-2. Completion of UI constraint
-3. Good algorithm
-4. Clean code
+### Task 5
+1. Install fastlane
+2. Implement lane `unit_test` to trigger unit test of Task 4
+3. Implement lane `ui_test` to trigger ui test of Task 4
+
+## Restrictions :no_entry: 
+- You cannot use any external library unless specified :alien: :no_entry_sign: 
+- You are not allowed to share/discuss any part of this test with anyone :angry:
+    - Once found, you will be immediately disqualified
+    - We take integrity seriously here in USThing :wink:
+
+## 
+
+Feel free to ask our members if you have any questions :+1: 
+
+Happy Coding! :confetti_ball: 
